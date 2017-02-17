@@ -1,0 +1,247 @@
+a {
+    float: left;
+	display: inline;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: orange;
+	text-decoration: none;
+}
+a:hover {
+    color: red;
+}
+h1 {
+  padding: 5px;
+  margin: auto;
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+h2 {
+  font-family: Helvetica, sans-serif;
+  display: inline;
+  margin-left: 10px;
+  text-align: center;
+  font-size:12px;
+  color: orange;
+}
+h3 {
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  text-align: left;
+  color: white;
+  text-decoration: none;
+}
+h4 {
+<<<<<<< HEAD:IndexSneakerDRY9.css
+  font-family: Geneva, sans-serif;
+  font-size:14px;
+=======
+  font-family: Helvetica, sans-serif;
+  font-size:10px;
+>>>>>>> origin/master:IndexSneakerDRY7.css
+  font-style: thin;
+  display: inline-block;
+  text-align: center;
+  color: white;
+}
+h5 {
+  font-family: Helvetica, sans-serif;
+  font-size: 9px;
+  display: inline;
+  text-align: center;
+<<<<<<< HEAD:IndexSneakerDRY9.css
+  color: white;
+  text: superscript;
+  text: underline;
+=======
+  color: red;
+
+>>>>>>> origin/master:IndexSneakerDRY7.css
+}
+h6 {
+  padding: 5px;
+  margin: auto;
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  text-align: center;
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+body {
+  background-color: black;
+}
+.container2 {
+  background-color: white;
+  height:inherit;
+}
+.page {
+  background-color: white;
+  display: inline-block;
+  width: 720px;
+  text-decoration: none;
+}
+.outerWhiteBox {
+	background-color: white;
+	margin: 5% 22% 5% 22%;
+	display: inline-block;
+	width: 720px;
+	text-decoration: none;
+}
+.whiteBox {
+	background-color: white;
+	display: inline-block;
+	margin: 5%;
+	padding: 10px;
+	text-align: right;
+	vertical-align: middle;
+	white-space: pre;
+}
+.pinkContainer {
+  background-color: #FCF;
+  display: inline-block;
+  margin: 2px;
+  padding: 2px;
+  width: 700px;
+  float: center;
+  text-decoration: none;
+}
+.orangeBackground {
+  background-image:url(images/WebBackground.png);
+  display: inline-block;
+  margin: 2px;
+  padding: 2px;
+  width: 700px;
+<<<<<<< HEAD:IndexSneakerDRY9.css
+  min-height: 180px;
+=======
+  min-height: 100px;
+>>>>>>> origin/master:IndexSneakerDRY7.css
+  text-decoration: none;
+}
+.button {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  text-decoration: inherit;
+  font-size: 15px;
+  float: right;
+  color: white;
+  background-color: white;
+  border-radius: 10px;
+  -moz-border-radius: 7px;
+  margin: 10px;
+  display:inline-block;
+}
+.pink {
+  background-color: #FCF;
+  display: inlin-block;
+  width: 700px;
+}
+
+.textHere {
+	display: inline;
+	color: black;
+    height: 10px;
+    padding: 10px;
+    font-style: inherit;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9px;
+}
+.clickMe {
+	border:#CCC solid .5px;
+	border-radius: 5px;
+	-moz-border-radius: 10px;
+	color: orange;
+	height: 10px;
+	padding: 5px;
+	font-family: sans-serif;
+    text-decoration: none;
+}
+
+.clickMeImage {
+  text-decoration: none;
+	margin: auto;
+  width: 100%;
+  align: center;
+  padding: 5px;
+	display:inline-block;
+}
+.clickMe:hover {
+    color: red;
+    background-color: inherit;
+}
+.image1 {
+  padding: 5px;
+  float: left;
+  display: inline-block;
+  width: 200px;
+  margin: 5px 5px 5px 25px;
+}
+.inline {
+  padding: 5px;
+  display: inline-block;
+<<<<<<< HEAD:IndexSneakerDRY9.css
+  margin: 5px 5px 5px 25px;
+=======
+  margin: 5px 5px 5px 40px;
+>>>>>>> origin/master:IndexSneakerDRY7.css
+}
+
+.inline2 {
+  padding: 5px;
+<<<<<<< HEAD:IndexSneakerDRY9.css
+  margin: 5px;
+  display: inline-block;
+  width: 600px;
+  float: left;
+=======
+  margin-left: 15px;
+  display: inline-block;
+  width: 100%;
+  float: right;
+>>>>>>> origin/master:IndexSneakerDRY7.css
+}
+.inline3 {
+  padding: 1px;
+  display: inline-flex;;
+  width: 100%;
+  float: left;
+}
+.inline4 {
+  padding: 5px;
+  display: inline-block;
+<<<<<<< HEAD:IndexSneakerDRY9.css
+  margin: 5px 5px 5px 30px;
+}
+
+=======
+  margin: 5px 5px 5px 40px;
+  float:left;
+  width: inherit;
+}
+>>>>>>> origin/master:IndexSneakerDRY7.css
+.bottomMenu {
+  padding: 1px;
+  display: inline-block;
+  width: inherit;
+  float: right;
+  text-align: right;
+}
+.gradient {
+  background-color: black;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.example {
+  border: 2px dashed #ff0000;
+  margin-bottom: 50px;
+  }
+.right-align {
+    float: right;
+    padding-right: 10px;
+    text-decoration: none;
+	text-align: right;
+    border: 2px dashed #ff0000;
+}
